@@ -1,0 +1,109 @@
+/* pagina Principal  main */
+    /*  Estilos para a sessão Sobre mim */
+#sobre {
+    text-align:center;
+    padding: 20px;
+    background-color: rgb(233, 229, 229);
+}
+h2 {
+    font-size: 30px;
+    color: #7d9271; 
+    margin-bottom: 20px;
+    font-family: 'Bebas Neue'; 
+}
+    
+#sobre img {
+    width: 30%;
+    border-radius: 60%; 
+}
+    
+p {
+    font-size: 18px;
+    color: #666; 
+    margin-top: 20px;
+    line-height: 1.5; 
+    font-family: sans-serif;
+    font-size: 19px;
+}
+    /*  Estilos sessão Habilidades*/
+    
+#habilidades {
+    background-color: rgb(223, 218, 218);
+    padding: 30px;
+    text-align: center;
+     
+}
+    
+.tecnologia {
+     display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.tecnologia div {
+    background-color: #F5FFFA;
+    color: black;
+    padding: 10px 20px;
+    margin: 100px;
+    border-radius: 10px;
+}
+    /*  Estilos sessão Projetos*/
+    
+#Projetos {
+    background-color: rgb(233, 229, 229);
+    padding: 20px;
+    text-align: center;
+       
+}
+div a {
+    font-size: 30px;
+}
+
+.social a {
+    background-color: #333;
+    color: white;
+    padding: 22px 20px;
+    text-decoration: none;
+    margin-top: 100px;
+    display: inline-block;
+}
+    /*  Estilos sessão formação*/
+#Formação{
+    background-color: rgb(223, 218, 218);
+    padding: 30px;
+    text-align: center;
+}
+    
+#Formação img {
+    width: 150px;
+    height: 80px;
+    margin: 60px;
+}
+    
+.Formação p{
+    font-size: 20px;
+    
+}
+    
+    /*  Estilos sessão contato*/
+    
+#Contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:rgb(233, 229, 229);
+    padding: 20px;
+    
+}
+    
+#Contato input[type="text"],
+#Contato input[type="e-mail"],
+#Contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
